@@ -1,0 +1,3 @@
+FROM wantcat/trendradar:latest
+COPY config/ /app/config/
+RUN chmod -R 755 /app/config/
